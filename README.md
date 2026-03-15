@@ -137,11 +137,17 @@ Agent Forensics detects the following anomaly types:
 | JSON | `--format json` | Machine-readable analysis output |
 | Mermaid | `--format mermaid` | Visual DAG diagram |
 
-## Related Projects
+## Part of the Authensor Ecosystem
 
-- **[Authensor](https://github.com/AUTHENSOR/authensor)** — Produces the receipt chains that Agent Forensics analyzes
-- **[Behavioral Fingerprinting](https://github.com/AUTHENSOR/behavioral-fingerprinting)** — Build and compare agent behavioral profiles
-- **Chainbreaker** — Generates attack scenarios to analyze with Agent Forensics
+This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/AUTHENSOR).
+
+| Project | Description |
+|---------|-------------|
+| [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) | The open-source safety stack for AI agents |
+| [Prompt Injection Benchmark](https://github.com/AUTHENSOR/prompt-injection-benchmark) | Standardized benchmark for safety scanners |
+| [AI SecLists](https://github.com/AUTHENSOR/ai-seclists) | Security wordlists and payloads for AI/LLM testing |
+| [ATT&CK ↔ Alignment Rosetta](https://github.com/AUTHENSOR/attack-alignment-rosetta) | Maps MITRE ATT&CK to AI alignment concepts |
+| [Behavioral Fingerprinting](https://github.com/AUTHENSOR/behavioral-fingerprinting) | Statistical behavioral drift detection |
 
 ## Design
 
