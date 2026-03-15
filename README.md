@@ -73,7 +73,7 @@ console.log(output);
 ## Example Output
 
 ```
-Agent Forensics — Decision Tree Reconstruction
+Agent Forensics -- Decision Tree Reconstruction
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Chain: 12 receipts │ Integrity: ✓ VALID │ Time span: 2m 34s
@@ -151,10 +151,10 @@ This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) 
 
 ## Design
 
-- **Zero runtime dependencies** — only Node.js built-ins
+- **Zero runtime dependencies** -- only Node.js built-ins
 - **TypeScript, ESM, strict mode**
-- **Synchronous core** — parsing and analysis are pure functions
-- **Composable** — use the library functions individually or the full pipeline
+- **Synchronous core** -- parsing and analysis are pure functions
+- **Composable** -- use the library functions individually or the full pipeline
 
 ## License
 

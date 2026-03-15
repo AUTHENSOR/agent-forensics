@@ -1,5 +1,5 @@
 /**
- * Reporter — Generates reports in multiple formats.
+ * Reporter -- Generates reports in multiple formats.
  *
  * Formats: terminal (colored ASCII), markdown, JSON, mermaid.
  */

@@ -1,5 +1,5 @@
 /**
- * Agent Forensics — Black box recorder for AI agents.
+ * Agent Forensics -- Black box recorder for AI agents.
  *
  * Reconstruct what happened. Find where it went wrong.
  *

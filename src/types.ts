@@ -1,5 +1,5 @@
 /**
- * Agent Forensics — Type definitions
+ * Agent Forensics -- Type definitions
  *
  * Compatible with Authensor receipt format.
  */

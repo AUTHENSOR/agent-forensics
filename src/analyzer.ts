@@ -1,5 +1,5 @@
 /**
- * Analyzer — Identifies anomalies in receipt chains.
+ * Analyzer -- Identifies anomalies in receipt chains.
  *
  * Detects:
  * - Retry after denial (same action attempted multiple times after deny)
@@ -19,7 +19,7 @@ export interface AnalyzerOptions {
   retryThreshold?: number;
   /** Maximum gap in ms before flagging timing anomaly (default: 30000) */
   timingGapThresholdMs?: number;
-  /** Minimum gap in ms — shorter gaps flagged as rapid fire (default: 100) */
+  /** Minimum gap in ms -- shorter gaps flagged as rapid fire (default: 100) */
   rapidFireThresholdMs?: number;
   /** Number of actions in rapid succession before flagging (default: 5) */
   rapidFireCount?: number;

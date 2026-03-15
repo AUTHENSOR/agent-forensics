@@ -1,5 +1,5 @@
 /**
- * Parser — Reads Authensor receipt JSON and validates chain integrity.
+ * Parser -- Reads Authensor receipt JSON and validates chain integrity.
  *
  * Handles both single receipt arrays and newline-delimited JSON.
  * Validates the hash chain to detect tampering.

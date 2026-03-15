@@ -1,5 +1,5 @@
 /**
- * TreeBuilder — Reconstructs the full decision DAG from receipts.
+ * TreeBuilder -- Reconstructs the full decision DAG from receipts.
  *
  * Handles parent-child relationships and branching agent delegations.
  * The resulting tree can have multiple roots (parallel agent chains).
@@ -43,7 +43,7 @@ export function buildTree(receipts: Receipt[]): TreeNode[] {
       }
     }
 
-    // No parent_receipt_id or parent not found — check prev_receipt_hash
+    // No parent_receipt_id or parent not found -- check prev_receipt_hash
     if (receipt.prev_receipt_hash !== null) {
       // Find the receipt with matching receipt_hash
       const prevReceipt = sorted.find((r) => r.receipt_hash === receipt.prev_receipt_hash);
