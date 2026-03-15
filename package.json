@@ -1,0 +1,44 @@
+{
+  "name": "agent-forensics",
+  "version": "0.1.0",
+  "description": "Black box recorder for AI agents. Reconstruct decisions, detect anomalies, verify audit chains.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "agent-forensics": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test dist/**/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai-safety",
+    "agent",
+    "forensics",
+    "audit",
+    "receipts",
+    "decision-tree",
+    "authensor"
+  ],
+  "author": "15 Research Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AUTHENSOR/agent-forensics.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
