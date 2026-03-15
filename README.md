@@ -2,7 +2,7 @@
 
 **Black box recorder for AI agents. Reconstruct what happened. Find where it went wrong.**
 
-From [15 Research Lab](https://github.com/15researchlab)
+From [15 Research Lab](https://github.com/15-Research-Lab)
 
 ---
 
@@ -139,7 +139,7 @@ Agent Forensics detects the following anomaly types:
 
 ## Part of the Authensor Ecosystem
 
-This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/15researchlab).
+This project is part of the [Authensor](https://github.com/AUTHENSOR/AUTHENSOR) open-source AI safety ecosystem, built by [15 Research Lab](https://github.com/15-Research-Lab).
 
 | Project | Description |
 |---------|-------------|
